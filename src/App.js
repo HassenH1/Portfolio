@@ -5,8 +5,8 @@ import tom from './tom.PNG'
 import real from './realestate.PNG'
 import review from './gamereview.png'
 import clothing from './clothing.PNG'
-import { Header, Nav, Page, A, Name, Flextext, H1, innerText, Fortitle, P, Section, Image, Projects, Hr, One, Laptop, Pipboy, DivOne, Last, Btn1, Btn2 } from './styled.js';
-
+import { Manager, Popper } from 'react-popper';
+import { Header, Nav, Page, A, Name, Flextext, H1, innerText, Fortitle, P, Section, Image, Projects, Hr, One, Laptop, Pipboy, DivOne, Last, Btn1, Btn2, DivIcon, Alink } from './styled.js';
 
 function App() {
   return (
@@ -17,12 +17,16 @@ function App() {
             <Name>Hassen Hassen</Name>
             <innerText>
               <A href="#projects">PORTFOLIO</A>
-              <A href="">CONTACT</A>
+              {/* <A href="">CONTACT</A> */}
             </innerText>
           </Flextext>
         </Nav>
         <Fortitle>
           <H1>(Software Developer)</H1>
+          <DivIcon>
+            <Alink href="https://www.linkedin.com/in/hassenhassen/" target="_blank"><i class="fab fa-linkedin" style={{ "font-size": "3rem", "marginRight": "2rem" }}></i></Alink>
+            <Alink href="https://github.com/HassenH1" target="_blank"><i class="fab fa-github" style={{ "font-size": "3rem" }}></i></Alink>
+          </DivIcon>
           <P>Hi, my Name is Hassen S. Hassen and I am a software Engineer with a background in customer service. my background in customer service allows me to communicate effectively with both clients and on a team. As a creative problem solver with a passion for learning and continually seek better ways to provide clients with innovative solutions.</P>
         </Fortitle>
       </Header>
@@ -119,6 +123,7 @@ function App() {
             <div>
               <h3>Real Estate</h3>
               <p>Created with JavaScript | Express | Node | MongoDB | CSS | Embedded JavaScript (EJS) | HTML | CSS library called Skeleton</p>
+              <p>Deployed on Heroku</p>
               <Btn1><a href="https://obscure-stream-37275.herokuapp.com/" target="_blank">Link</a></Btn1>
               <Btn2><a href="https://github.com/HassenH1/real-estate" target="_blank">Github</a></Btn2>
             </div>
@@ -139,7 +144,8 @@ function App() {
           <DivOne>
             <div>
               <h3>Legendary Game Reviews</h3>
-              <p>Group project created with React | React-Router | Styled-Components | React-Spinner | RAWG API | Font-Awesome | for Front-end | Python | Flask | Peewee | SQLite3/PostgreSQL | for Back-end</p>
+              <p>Group project created with React | React-Router | Styled-Components | React-Spinner | RAWG API | Font-Awesome for Front-end | Python | Flask | Peewee | SQLite3/PostgreSQL for Back-end</p>
+              <p>Deployed on Heroku</p>
               <Btn1><a href="https://legendary-game-reviews.herokuapp.com/" target="_blank">Link</a></Btn1>
               <Btn2><a href="https://github.com/moonjason/legendary-game-reviews-react" target="_blank">Github</a></Btn2>
             </div>
@@ -161,12 +167,14 @@ function App() {
             <div>
               <h3>E-Commerce Clothing Store</h3>
               <p>Created with MERN stack with Firebase Authentication and Storage</p>
+              <p>Deployed on Heroku</p>
               <Btn1><a href="">Link</a></Btn1>
               <Btn2><a href="" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </Last>
       </Projects>
+
     </Page>
   );
 }

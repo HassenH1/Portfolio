@@ -11,6 +11,14 @@ export const Header = styled.header`
   background-color: antiquewhite;
 `
 
+export const DivIcon = styled.div`
+  position: relative;
+  top: 5rem;
+`
+
+export const Alink = styled.a`
+  color: inherit;
+`
 ///////////////////////////////////////nav start
 export const Nav = styled.nav`
   width: 100%:
