@@ -17,6 +17,7 @@ export const Nav = styled.nav`
   height: 0px;
   color: white;
   background-color: black;
+  font-family: Lobster;
 `
 
 export const A = styled.a`
@@ -50,7 +51,8 @@ export const H1 = styled.h1`
   color: white;
   position: relative;
   top: 30%;
-  font-size: 74.5px;
+  font-size: 62.4px;
+  font-family: Courier New;
 `
 export const Fortitle = styled.div`
   width: 50vw;
@@ -64,6 +66,7 @@ export const P = styled.p`
   top: 100px;
   font-size: 18px;
   font-weight: bold;
+  font-family: Helvetica;
 `
 ///////////////////////////////////////header end
 

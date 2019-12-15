@@ -56,8 +56,8 @@ function App() {
             <div>
               <h3>Pipboy from Fallout</h3>
               <p>Created with Bootstrap | JQuery</p>
-              <Btn1><a src="">Link</a></Btn1>
-              <Btn2>Github</Btn2>
+              <Btn1><a href="https://hassenh1.github.io/Pipboy-UI-from-Fallout-Bootstrap-/" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/HassenH1/Pipboy-UI-from-Fallout-Bootstrap-" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </One>
@@ -77,8 +77,8 @@ function App() {
             <div>
               <h3>Connect 4</h3>
               <p>Created with HTML | CSS | JavaScript</p>
-              <Btn1><a src="">Link</a></Btn1>
-              <Btn2>Github</Btn2>
+              <Btn1><a href="https://hassenh1.github.io/Legendary-4/" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/HassenH1/Legendary-4" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </One>
@@ -98,8 +98,8 @@ function App() {
             <div>
               <h3>Tamagotchi</h3>
               <p>Created with HTML | CSS | JavaScript</p>
-              <Btn1><a src="">Link</a></Btn1>
-              <Btn2>Github</Btn2>
+              <Btn1><a href="https://hassenh1.github.io/Tomagotchi/" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/HassenH1/Tomagotchi" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </One>
@@ -119,8 +119,8 @@ function App() {
             <div>
               <h3>Real Estate</h3>
               <p>Created with JavaScript | Express | Node | MongoDB | CSS | Embedded JavaScript (EJS) | HTML | CSS library called Skeleton</p>
-              <Btn1><a src="">Link</a></Btn1>
-              <Btn2>Github</Btn2>
+              <Btn1><a href="https://obscure-stream-37275.herokuapp.com/" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/HassenH1/real-estate" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </One>
@@ -140,8 +140,8 @@ function App() {
             <div>
               <h3>Legendary Game Reviews</h3>
               <p>Group project created with React | React-Router | Styled-Components | React-Spinner | RAWG API | Font-Awesome | for Front-end | Python | Flask | Peewee | SQLite3/PostgreSQL | for Back-end</p>
-              <Btn1><a src="">Link</a></Btn1>
-              <Btn2>Github</Btn2>
+              <Btn1><a href="https://legendary-game-reviews.herokuapp.com/" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/moonjason/legendary-game-reviews-react" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </One>
@@ -161,8 +161,8 @@ function App() {
             <div>
               <h3>E-Commerce Clothing Store</h3>
               <p>Created with MERN stack with Firebase Authentication and Storage</p>
-              <Btn1><a src="">Link</a></Btn1>
-              <Btn2>Github</Btn2>
+              <Btn1><a href="">Link</a></Btn1>
+              <Btn2><a href="" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </Last>
