@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Portfolio/static/js/main.b66652a5.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.b66652a5.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.d3ebe2ed.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d3ebe2ed.js.map",
+    "static/js/2.ac48c051.chunk.js": "/Portfolio/static/js/2.ac48c051.chunk.js",
+    "static/js/2.ac48c051.chunk.js.map": "/Portfolio/static/js/2.ac48c051.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.6a8a6fa321ce4d8e5ce884921377abad.js": "/Portfolio/precache-manifest.6a8a6fa321ce4d8e5ce884921377abad.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Portfolio/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.ac48c051.chunk.js.LICENSE": "/Portfolio/static/js/2.ac48c051.chunk.js.LICENSE",
+    "static/media/clothing.PNG": "/Portfolio/static/media/clothing.77445f35.PNG",
+    "static/media/connect4.PNG": "/Portfolio/static/media/connect4.bc053b90.PNG",
+    "static/media/gamereview.png": "/Portfolio/static/media/gamereview.c4552467.png",
+    "static/media/pipboy.PNG": "/Portfolio/static/media/pipboy.e30f8bef.PNG",
+    "static/media/realestate.PNG": "/Portfolio/static/media/realestate.0d38d6a7.PNG",
+    "static/media/tom.PNG": "/Portfolio/static/media/tom.0585e921.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3ebe2ed.js",
+    "static/js/2.ac48c051.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.b66652a5.chunk.js"
+  ]
+}
