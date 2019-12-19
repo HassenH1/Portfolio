@@ -40,17 +40,14 @@ export const A = styled.a`
 `
 export const Flextext = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 `
 
 export const Name = styled.div`
-  color: inherit;
+  color: red;
   font-size: 25px;
   text-decoration: none;
   padding: 25px;
-  :hover {
-    color: red;
-  }
 `
 ///////////////////////////////////////nav end
 

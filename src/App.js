@@ -13,7 +13,7 @@ function App() {
       <Header>
         <Nav>
           <Flextext>
-            <Name>Hassen Hassen</Name>
+            <Name>Hassen S. Hassen</Name>
             <innerText>
               <A href="#projects">PORTFOLIO</A>
               {/* <A href="">CONTACT</A> */}
