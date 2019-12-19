@@ -61,6 +61,7 @@ export const H1 = styled.h1`
   top: 30%;
   font-size: 62.4px;
   font-family: Courier New;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 `
 export const Fortitle = styled.div`
   width: 50vw;

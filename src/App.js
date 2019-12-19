@@ -168,8 +168,8 @@ function App() {
               <h3>E-Commerce Clothing Store</h3>
               <p>Created with MERN stack with Firebase Authentication and Storage</p>
               <p>Deployed on Heroku</p>
-              <Btn1><a href="">Link</a></Btn1>
-              <Btn2><a href="" target="_blank">Github</a></Btn2>
+              <Btn1>Coming</Btn1>
+              <Btn2><a href="https://github.com/HassenH1/capstone" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </Last>
