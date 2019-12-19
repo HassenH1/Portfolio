@@ -4,7 +4,7 @@ export const Page = styled.div`
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  scroll-behavior: inherit;
+  scroll-behavior: smooth;
 `
 export const Header = styled.header`
   height: 75vh;

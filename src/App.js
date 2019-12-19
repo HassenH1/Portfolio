@@ -5,7 +5,6 @@ import tom from './tom.PNG'
 import real from './realestate.PNG'
 import review from './gamereview.png'
 import clothing from './clothing.PNG'
-import { Manager, Popper } from 'react-popper';
 import { Header, Nav, Page, A, Name, Flextext, H1, innerText, Fortitle, P, Section, Image, Projects, Hr, One, Laptop, Pipboy, DivOne, Last, Btn1, Btn2, DivIcon, Alink } from './styled.js';
 
 function App() {
@@ -174,7 +173,6 @@ function App() {
           </DivOne>
         </Last>
       </Projects>
-
     </Page>
   );
 }
