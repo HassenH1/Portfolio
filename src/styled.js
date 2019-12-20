@@ -59,6 +59,7 @@ export const H1 = styled.h1`
   font-size: 62.4px;
   font-family: Courier New;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: center;
 `
 export const Fortitle = styled.div`
   width: 50vw;
@@ -190,3 +191,50 @@ margin: 0 auto 2rem auto;
 `
 
 ////////////////////////////////////last end
+
+///////////////////////////////////footer start
+
+export const Footer = styled.div`
+  width: 100vw;
+  height: 15vh;
+  position: relative;
+  top: 140rem;
+  text-align:center;
+`
+
+export const Head = styled.h3`
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font: 300 60px 'Oswald', sans-serif;
+  letter-spacing: 6px;
+  color: #fff;
+  margin-bottom: 25px;
+  color: black;
+
+`
+
+export const Wrapped = styled.div`
+  margin: 0 auto;
+  padding-top: 20px;
+  position: relative;
+  max-width: 800px;
+`
+
+export const ContactList = styled.ul`
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
+`
+
+export const ListItems = styled.li`
+  line-height: 4;
+  color: #aaa;
+  text-align: center;
+  font-size: 21px;
+`
+
+///////////////////////////////////footer end

@@ -5,7 +5,7 @@ import tom from './tom.PNG'
 import real from './realestate.PNG'
 import review from './gamereview.png'
 import clothing from './clothing.PNG'
-import { Header, Nav, Page, A, Name, Flextext, H1, innerText, Fortitle, P, Section, Image, Projects, Hr, One, Laptop, Pipboy, DivOne, Last, Btn1, Btn2, DivIcon, Alink } from './styled.js';
+import { Header, Nav, Page, A, Name, Flextext, H1, innerText, Fortitle, P, Section, Image, Projects, Hr, One, Laptop, Pipboy, DivOne, Last, Btn1, Btn2, DivIcon, Alink, Footer, Head, Wrapped, ContactList, ListItems } from './styled.js';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
             <Name>Hassen S. Hassen</Name>
             <innerText>
               <A href="#projects">PORTFOLIO</A>
-              {/* <A href="">CONTACT</A> */}
+              <A href="#contact">CONTACT</A>
             </innerText>
           </Flextext>
         </Nav>
@@ -46,6 +46,7 @@ function App() {
         <Image src="https://www.getpostman.com/img/v2/logo-glyph.png" />
         <Image src="https://vitworks.com/wp-content/uploads/2017/02/consuming-restful-api.png" />
         <Image src="http://pluspng.com/img-png/bootstrap-png-bootstrap-512.png" />
+        <Image src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png" />
       </Section>
       <Projects>
         <Hr />
@@ -53,14 +54,15 @@ function App() {
         <One>
           <div>
             <Laptop src="https://rize.digital/wp-content/uploads/2017/09/macbook-white-screen.png" />
-            <Pipboy src={pipboy} />
+            <Pipboy src={clothing} />
           </div>
           <DivOne>
             <div>
-              <h3>Pipboy from Fallout</h3>
-              <p>Created with Bootstrap | JQuery</p>
-              <Btn1><a href="https://hassenh1.github.io/Pipboy-UI-from-Fallout-Bootstrap-/" target="_blank">Link</a></Btn1>
-              <Btn2><a href="https://github.com/HassenH1/Pipboy-UI-from-Fallout-Bootstrap-" target="_blank">Github</a></Btn2>
+              <h3>E-Commerce Clothing Store</h3>
+              <p>Created with MERN stack with Firebase Authentication and Storage</p>
+              <p>Deployed on Heroku</p>
+              <Btn1>Coming</Btn1>
+              <Btn2><a href="https://github.com/HassenH1/capstone" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </One>
@@ -74,14 +76,15 @@ function App() {
         <One>
           <div>
             <Laptop src="https://rize.digital/wp-content/uploads/2017/09/macbook-white-screen.png" />
-            <Pipboy src={connect} />
+            <Pipboy src={review} />
           </div>
           <DivOne>
             <div>
-              <h3>Connect 4</h3>
-              <p>Created with HTML | CSS | JavaScript</p>
-              <Btn1><a href="https://hassenh1.github.io/Legendary-4/" target="_blank">Link</a></Btn1>
-              <Btn2><a href="https://github.com/HassenH1/Legendary-4" target="_blank">Github</a></Btn2>
+              <h3>Legendary Game Reviews</h3>
+              <p>Group project created with React | React-Router | Styled-Components | React-Spinner | RAWG API | Font-Awesome for Front-end | Python | Flask | Peewee | SQLite3/PostgreSQL for Back-end</p>
+              <p>Deployed on Heroku</p>
+              <Btn1><a href="https://legendary-game-reviews.herokuapp.com/" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/moonjason/legendary-game-reviews-react" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </One>
@@ -138,15 +141,14 @@ function App() {
         <One>
           <div>
             <Laptop src="https://rize.digital/wp-content/uploads/2017/09/macbook-white-screen.png" />
-            <Pipboy src={review} />
+            <Pipboy src={connect} />
           </div>
           <DivOne>
             <div>
-              <h3>Legendary Game Reviews</h3>
-              <p>Group project created with React | React-Router | Styled-Components | React-Spinner | RAWG API | Font-Awesome for Front-end | Python | Flask | Peewee | SQLite3/PostgreSQL for Back-end</p>
-              <p>Deployed on Heroku</p>
-              <Btn1><a href="https://legendary-game-reviews.herokuapp.com/" target="_blank">Link</a></Btn1>
-              <Btn2><a href="https://github.com/moonjason/legendary-game-reviews-react" target="_blank">Github</a></Btn2>
+              <h3>Connect 4</h3>
+              <p>Created with HTML | CSS | JavaScript</p>
+              <Btn1><a href="https://hassenh1.github.io/Legendary-4/" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/HassenH1/Legendary-4" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </One>
@@ -160,19 +162,29 @@ function App() {
         <Last>
           <div>
             <Laptop src="https://rize.digital/wp-content/uploads/2017/09/macbook-white-screen.png" />
-            <Pipboy src={clothing} />
+            <Pipboy src={pipboy} />
           </div>
           <DivOne>
             <div>
-              <h3>E-Commerce Clothing Store</h3>
-              <p>Created with MERN stack with Firebase Authentication and Storage</p>
-              <p>Deployed on Heroku</p>
-              <Btn1>Coming</Btn1>
-              <Btn2><a href="https://github.com/HassenH1/capstone" target="_blank">Github</a></Btn2>
+              <h3>Pipboy from Fallout</h3>
+              <p>Created with Bootstrap | JQuery</p>
+              <Btn1><a href="https://hassenh1.github.io/Pipboy-UI-from-Fallout-Bootstrap-/" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/HassenH1/Pipboy-UI-from-Fallout-Bootstrap-" target="_blank">Github</a></Btn2>
             </div>
           </DivOne>
         </Last>
       </Projects>
+      <Footer>
+        <div id="contact"></div>
+        <h2>Contact</h2>
+        <Hr />
+        <Wrapped>
+          <ContactList>
+            <ListItems><i class="fas fa-mobile-alt"></i> (323)445-4642</ListItems>
+            <ListItems><i class="far fa-envelope"></i> hasansaid51@gmail.com</ListItems>
+          </ContactList>
+        </Wrapped>
+      </Footer>
     </Page>
   );
 }
