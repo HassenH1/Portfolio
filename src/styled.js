@@ -252,6 +252,10 @@ export const Footer = styled.div`
   position: relative;
   top: 140rem;
   text-align:center;
+  @media (max-width: 812px) {
+    height: 25vh;
+    top: 145rem;
+  }
 `
 
 export const Head = styled.h3`
@@ -287,6 +291,9 @@ export const ListItems = styled.li`
   color: #aaa;
   text-align: center;
   font-size: 21px;
+  @media (max-width: 812px) {
+    font-size: 15px;
+  }
 `
 
 ///////////////////////////////////footer end
