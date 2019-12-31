@@ -5,7 +5,7 @@ import tom from './tom.PNG'
 import real from './realestate.PNG'
 import review from './gamereview.png'
 import clothing from './clothing.PNG'
-import { Header, Nav, Page, A, Name, Flextext, H1, innerText, Fortitle, P, Section, Image, Projects, Hr, One, Laptop, Pipboy, DivOne, Last, Btn1, Btn2, DivIcon, Alink, Footer, Head, Wrapped, ContactList, ListItems } from './styled.js';
+import { Header, Nav, Page, A, Name, Flextext, H1, innerText, Fortitle, P, Section, Image, Projects, Hr, One, Laptop, Pipboy, DivOne, Last, Btn1, Btn2, DivIcon, Alink, Footer, Head, Wrapped, ContactList, ListItems, Media } from './styled.js';
 
 function App() {
   return (
@@ -57,13 +57,13 @@ function App() {
             <Pipboy src={clothing} />
           </div>
           <DivOne>
-            <div>
+            <Media>
               <h3>E-Commerce Clothing Store</h3>
               <p>Created with MERN stack with Firebase Authentication and Storage</p>
               <p>Deployed on Heroku</p>
               <Btn1>Coming</Btn1>
               <Btn2><a href="https://github.com/HassenH1/capstone" target="_blank">Github</a></Btn2>
-            </div>
+            </Media>
           </DivOne>
         </One>
         <br />
@@ -79,13 +79,13 @@ function App() {
             <Pipboy src={review} />
           </div>
           <DivOne>
-            <div>
+            <Media>
               <h3>Legendary Game Reviews</h3>
               <p>Group project created with React | React-Router | Styled-Components | React-Spinner | RAWG API | Font-Awesome for Front-end | Python | Flask | Peewee | SQLite3/PostgreSQL for Back-end</p>
               <p>Deployed on Heroku</p>
               <Btn1><a href="https://legendary-game-reviews.herokuapp.com/" target="_blank">Link</a></Btn1>
               <Btn2><a href="https://github.com/moonjason/legendary-game-reviews-react" target="_blank">Github</a></Btn2>
-            </div>
+            </Media>
           </DivOne>
         </One>
         <br />
@@ -101,12 +101,12 @@ function App() {
             <Pipboy src={tom} />
           </div>
           <DivOne>
-            <div>
+            <Media>
               <h3>Tamagotchi</h3>
               <p>Created with HTML | CSS | JavaScript</p>
               <Btn1><a href="https://hassenh1.github.io/Tomagotchi/" target="_blank">Link</a></Btn1>
               <Btn2><a href="https://github.com/HassenH1/Tomagotchi" target="_blank">Github</a></Btn2>
-            </div>
+            </Media>
           </DivOne>
         </One>
         <br />
@@ -122,13 +122,13 @@ function App() {
             <Pipboy src={real} />
           </div>
           <DivOne>
-            <div>
+            <Media>
               <h3>Real Estate</h3>
               <p>Created with JavaScript | Express | Node | MongoDB | CSS | Embedded JavaScript (EJS) | HTML | CSS library called Skeleton</p>
               <p>Deployed on Heroku</p>
               <Btn1><a href="https://obscure-stream-37275.herokuapp.com/" target="_blank">Link</a></Btn1>
               <Btn2><a href="https://github.com/HassenH1/real-estate" target="_blank">Github</a></Btn2>
-            </div>
+            </Media>
           </DivOne>
         </One>
         <br />
@@ -144,12 +144,12 @@ function App() {
             <Pipboy src={connect} />
           </div>
           <DivOne>
-            <div>
+            <Media>
               <h3>Connect 4</h3>
               <p>Created with HTML | CSS | JavaScript</p>
               <Btn1><a href="https://hassenh1.github.io/Legendary-4/" target="_blank">Link</a></Btn1>
               <Btn2><a href="https://github.com/HassenH1/Legendary-4" target="_blank">Github</a></Btn2>
-            </div>
+            </Media>
           </DivOne>
         </One>
         <br />
@@ -165,12 +165,12 @@ function App() {
             <Pipboy src={pipboy} />
           </div>
           <DivOne>
-            <div>
+            <Media>
               <h3>Pipboy from Fallout</h3>
               <p>Created with Bootstrap | JQuery</p>
               <Btn1><a href="https://hassenh1.github.io/Pipboy-UI-from-Fallout-Bootstrap-/" target="_blank">Link</a></Btn1>
               <Btn2><a href="https://github.com/HassenH1/Pipboy-UI-from-Fallout-Bootstrap-" target="_blank">Github</a></Btn2>
-            </div>
+            </Media>
           </DivOne>
         </Last>
       </Projects>

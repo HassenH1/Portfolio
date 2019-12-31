@@ -178,7 +178,15 @@ export const DivOne = styled.div`
   left: 29rem;
   bottom: 17rem;
   @media (max-width: 812px) {
+    
+  }
+`
 
+export const Media = styled.div`
+  @media (max-width: 812px) {
+    position: relative;
+    right: 35.5rem;
+    top: 6rem;
   }
 `
 
@@ -201,18 +209,6 @@ export const Btn1 = styled.button`
   outline: none;
 }
 font-size: 20px;
-@media (max-width: 812px) {
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-  height: 30px;
-  width: 93px;
-  cursor: pointer;
-  border-radius: 4px;
-  font-size: 20px;
-  margin-top: 6rem;
-  margin-right: 9rem;
-}
 `
 
 export const Btn2 = styled.button`
