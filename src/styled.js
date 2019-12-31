@@ -103,7 +103,7 @@ export const Section = styled.section`
   height: 35vh;
   text-align: center;
   @media (max-width: 812px) {
-    height: 85vh;
+    height: 55vh;
   }
 `
 
@@ -113,7 +113,9 @@ export const Image = styled.img`
   position: relative;
   top: 42px;
   @media (max-width: 812px) {
-    
+    top: 22px;
+    height: 76px;
+    width: 76px;
   }
 `
 
@@ -146,6 +148,13 @@ export const Laptop = styled.img`
   position: relative;
   right: 10rem;
   top: 1rem;
+  @media (max-width: 812px) {
+    height: 300px;
+    width: 480.2px;
+    position: relative;
+    right: 15rem;
+    top: 1rem;
+  }
 `
 export const Pipboy = styled.img`
   height: 240px;
@@ -153,6 +162,13 @@ export const Pipboy = styled.img`
   position: relative; 
   right: 41.5rem;
   bottom: 1.5rem;
+  @media (max-width: 812px) {
+    height: 240px;
+    width: 320px;
+    position: relative; 
+    right: 40rem;
+    bottom: 1.5rem;
+  }
 `
 
 export const DivOne = styled.div`
@@ -161,6 +177,9 @@ export const DivOne = styled.div`
   position: relative;
   left: 29rem;
   bottom: 17rem;
+  @media (max-width: 812px) {
+
+  }
 `
 
 export const Btn1 = styled.button`
@@ -182,6 +201,18 @@ export const Btn1 = styled.button`
   outline: none;
 }
 font-size: 20px;
+@media (max-width: 812px) {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  height: 30px;
+  width: 93px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-top: 6rem;
+  margin-right: 9rem;
+}
 `
 
 export const Btn2 = styled.button`
