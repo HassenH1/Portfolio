@@ -140,6 +140,9 @@ export const One = styled.div`
   height: 350px;
   background-color: rgb(234,60,83);
   margin: 0 auto;
+  @media (max-width: 812px) {
+    height: 600px;
+  }
 `
 
 export const Laptop = styled.img`
@@ -186,7 +189,7 @@ export const Media = styled.div`
   @media (max-width: 812px) {
     position: relative;
     right: 35.5rem;
-    top: 6rem;
+    top: 17rem;
   }
 `
 
@@ -240,8 +243,10 @@ width: 1180px;
 height: 350px;
 background-color: rgb(234,60,83);
 margin: 0 auto 2rem auto;
+@media (max-width: 812px) {
+  height: 600px;
+}
 `
-
 ////////////////////////////////////last end
 
 ///////////////////////////////////footer start
@@ -254,7 +259,7 @@ export const Footer = styled.div`
   text-align:center;
   @media (max-width: 812px) {
     height: 25vh;
-    top: 145rem;
+    top: 240rem;
   }
 `
 
@@ -268,7 +273,6 @@ export const Head = styled.h3`
   color: #fff;
   margin-bottom: 25px;
   color: black;
-
 `
 
 export const Wrapped = styled.div`
