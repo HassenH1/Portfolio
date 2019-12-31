@@ -14,6 +14,9 @@ export const Header = styled.header`
 export const DivIcon = styled.div`
   position: relative;
   top: 5rem;
+  @media (max-width: 812px) {
+    top: 6rem;
+  }
 `
 
 export const Alink = styled.a`
@@ -48,6 +51,9 @@ export const Name = styled.div`
   font-size: 25px;
   text-decoration: none;
   padding: 25px;
+  @media (max-width: 812px) {
+    font-size: 20px;
+  }
 `
 ///////////////////////////////////////nav end
 
@@ -60,6 +66,12 @@ export const H1 = styled.h1`
   font-family: Courier New;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-align: center;
+  @media (max-width: 812px) {
+    font-size: 31.4px;
+    right: 225px;
+    top: 80px;
+    width: 40rem;
+  }
 `
 export const Fortitle = styled.div`
   width: 50vw;
@@ -74,6 +86,13 @@ export const P = styled.p`
   font-size: 18px;
   font-weight: bold;
   font-family: Helvetica;
+  @media (max-width: 812px) {
+   font-size: 15px;
+   top: 100px;
+   font-weight: 30px;
+   right: 90px;
+   width: 23rem;
+  }
 `
 ///////////////////////////////////////header end
 
@@ -83,6 +102,9 @@ export const Section = styled.section`
   width: 100vw;
   height: 35vh;
   text-align: center;
+  @media (max-width: 812px) {
+    height: 85vh;
+  }
 `
 
 export const Image = styled.img`
@@ -90,6 +112,9 @@ export const Image = styled.img`
   width: 96px;
   position: relative;
   top: 42px;
+  @media (max-width: 812px) {
+    
+  }
 `
 
 ///////////////////////////////////////icons end
