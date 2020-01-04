@@ -5,6 +5,7 @@ import tom from './tom.PNG'
 import real from './realestate.PNG'
 import review from './gamereview.png'
 import clothing from './clothing.PNG'
+import github from './githubfinder.PNG'
 import { Header, Nav, Page, A, Name, Flextext, H1, innerText, Fortitle, P, Section, Image, Projects, Hr, One, Laptop, Pipboy, DivOne, Last, Btn1, Btn2, DivIcon, Alink, Footer, Head, Wrapped, ContactList, ListItems, Media } from './styled.js';
 
 function App() {
@@ -106,6 +107,27 @@ function App() {
               <p>Created with HTML | CSS | JavaScript</p>
               <Btn1><a href="https://hassenh1.github.io/Tomagotchi/" target="_blank">Link</a></Btn1>
               <Btn2><a href="https://github.com/HassenH1/Tomagotchi" target="_blank">Github</a></Btn2>
+            </Media>
+          </DivOne>
+        </One>
+        <br />
+        <br />
+        <br />
+        <Hr />
+        <br />
+        <br />
+        <br />
+        <One>
+          <div>
+            <Laptop src="https://rize.digital/wp-content/uploads/2017/09/macbook-white-screen.png" />
+            <Pipboy src={github} />
+          </div>
+          <DivOne>
+            <Media>
+              <h3>Github Profile Finder</h3>
+              <p>Created with Reactjs | React Hooks | Github API</p>
+              <Btn1><a href="https://github.com/HassenH1" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/HassenH1/TheGithubMiniProject" target="_blank">Github</a></Btn2>
             </Media>
           </DivOne>
         </One>
