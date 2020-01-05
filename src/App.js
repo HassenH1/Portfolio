@@ -6,6 +6,7 @@ import real from './realestate.PNG'
 import review from './gamereview.png'
 import clothing from './clothing.PNG'
 import github from './githubfinder.PNG'
+import adopt from './adopt1.PNG'
 import { Header, Nav, Page, A, Name, Flextext, H1, innerText, Fortitle, P, Section, Image, Projects, Hr, One, Laptop, Pipboy, DivOne, Last, Btn1, Btn2, DivIcon, Alink, Footer, Head, Wrapped, ContactList, ListItems, Media } from './styled.js';
 
 function App() {
@@ -86,6 +87,27 @@ function App() {
               <p>Deployed on Heroku</p>
               <Btn1><a href="https://legendary-game-reviews.herokuapp.com/" target="_blank">Link</a></Btn1>
               <Btn2><a href="https://github.com/moonjason/legendary-game-reviews-react" target="_blank">Github</a></Btn2>
+            </Media>
+          </DivOne>
+        </One>
+        <br />
+        <br />
+        <br />
+        <Hr />
+        <br />
+        <br />
+        <br />
+        <One>
+          <div>
+            <Laptop src="https://rize.digital/wp-content/uploads/2017/09/macbook-white-screen.png" />
+            <Pipboy src={adopt} />
+          </div>
+          <DivOne>
+            <Media>
+              <h3>Pick Me!</h3>
+              <p>Created with Reactjs | React Hooks | PetFinder API</p>
+              <Btn1><a href="" target="_blank">Link</a></Btn1>
+              <Btn2><a href="https://github.com/HassenH1/Adopt-Me" target="_blank">Github</a></Btn2>
             </Media>
           </DivOne>
         </One>

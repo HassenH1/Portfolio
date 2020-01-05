@@ -255,7 +255,7 @@ export const Footer = styled.div`
   width: 100vw;
   height: 15vh;
   position: relative;
-  top: 140rem;
+  top: 3300px;
   text-align:center;
   @media (max-width: 812px) {
     height: 25vh;
